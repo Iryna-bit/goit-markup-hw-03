@@ -22,6 +22,7 @@ ul {
 }
 button {
   cursor: pointer;
+  
 }
 .container{
   margin: 0px auto;
@@ -96,7 +97,7 @@ button {
 }
 .tel-link {
   display: block;
-  padding: 9px 0px;
+  padding: 32px 0px;
 
   font-weight: 500;
   font-size: 14px;
@@ -110,7 +111,7 @@ button {
 }
 .mail-link {
   display: block;
-  padding: 9px 0px;
+  padding: 32px 0px;
 
   font-weight: 500;
   font-size: 14px;
@@ -153,6 +154,7 @@ button {
   padding: 10px 32px;
   min-width: 200px;
   height: 50px;
+  border: 0px;
 
   font-weight: bold;
   font-size: 16px;
@@ -259,8 +261,11 @@ button {
 .team-list-item:not(:last-child){
   margin-right: 30px;
 }
+.team-list-img{
+  display: block;
+}
 .team-text{
- padding: 30px 0px;
+ padding: 30px 32px;
 }
 
 .team-name-title {
@@ -312,9 +317,7 @@ button {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.contact-items{
-  margin-bottom: 9px;
-}
+
 .address {
   margin-top: 0px;
   font-style: normal;
@@ -363,6 +366,11 @@ button {
 .btn-item :not(:last-child) {
  margin-right: 30px; 
 }
+.portfolio-btn{
+  border-radius: 4px;
+  background-color:#F5F4FA;
+  border: 0px;
+}
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: #ffffff;
@@ -372,8 +380,9 @@ button {
   min-width: 73px;
   color: #ffffff;
   background-color: #2196f3;
+  border: 0px;
 }
-.portfolio-btn.web{
+.portfolio-btn.website{
   min-width: 128px;
 }
 .portfolio-btn.prog{
